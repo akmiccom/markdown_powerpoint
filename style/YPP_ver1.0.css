@@ -1,0 +1,51 @@
+/* @theme custom */
+/* Author: Makoto.Yaguchi@motherson.com */
+
+@import "gaia";
+
+header {
+    position: absolute;
+    left: 200mm;
+    font-size: 12.5px;
+    color: red;
+}
+
+footer {
+    position: absolute;
+    left: 20mm;
+    font-size: 9px;
+}
+
+section {
+    width: 254mm;
+    height: 142.88mm;
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 12.5px;
+}
+
+section h1{
+    background-color: whitesmoke;
+    font-size: 18px;
+    position: absolute;
+    top: 110mm;
+}
+
+section h2 {
+    background-color: whitesmoke;
+    font-size: 16.5px;
+}
+
+section p {
+    background-color:whitesmoke;
+    margin: 0mm;
+    line-height: 6mm;
+}
+
+section ul, ol {
+    background-color:whitesmoke;
+    margin: 0mm;
+    line-height: 6mm;
+}
+
