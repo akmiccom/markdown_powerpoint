@@ -1,4 +1,4 @@
-# マークダウンからスライドを作成する
+# markdownからpptxを作成する
 
 
 - [Pandoc User’s Guide 日本語版](https://pandoc-doc-ja.readthedocs.io/ja/latest/users-guide.html#slide-shows)
