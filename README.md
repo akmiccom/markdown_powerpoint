@@ -1,6 +1,6 @@
 # markdownからpptxを作成する手順を考えてみた
 
-## さんこ
+## 参考にしたサイト
 
 - [Pandoc User’s Guide 日本語版](https://pandoc-doc-ja.readthedocs.io/ja/latest/users-guide.html#slide-shows)
 - [Marp for VS Codeを使ったMarkdownによるスライド作成入門](https://zenn.dev/oyashiro846/articles/0deab8230432a5)
