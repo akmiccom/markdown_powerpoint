@@ -1,11 +1,27 @@
 ---
+# Title 
 title: Pandoc Template for Powerpoint
 subtitle: (Title Slide)
 date: 21 April 2024
+
+# for pandoc
+# reference-doc: "powerpoint/YPP_Ver1.0.pptx"
+# css:
+#   - style\YPP_ver1.0.css
+  # - styles/special.css
+
+# for marp
+theme: YPP_ver1.0
+math: mathjax
+marp: true
 ---
 
+
+
+<!-- _class: title -->
 # Section Title(Section Header)
 
+---
 
 ## How to do a slide(Title and Content)
 
@@ -20,6 +36,8 @@ I like to use:
 Speaker notes go here
 
 :::
+
+---
 
 ## Two-column slide with image(Two content)
 
@@ -44,6 +62,8 @@ Speaker notes go here
 
 :::
 
+---
+
 ## Table(Title and Content)
 
 | Heading | Heading | Heading | Heading | Heading |
@@ -60,6 +80,8 @@ Speaker notes go here
 
 :::
 
+---
+
 ## An image(Title and Content)
 
 ![Alt text looks like this](./img/Logo_01.png){width=25%}
@@ -70,10 +92,14 @@ Speaker notes go here
 
 :::
 
+---
+
 ## Bullet lists(Title and Content)
 
 - Bullets work
   -  Indenting works
+
+---
 
 ## Ordered lists(Title and Content)
 
@@ -86,6 +112,8 @@ Speaker notes go here
 Speaker notes go here
 
 :::
+
+---
 
 ## Code(Title and Content)
 
@@ -115,6 +143,8 @@ Speaker notes go here
 
 :::
 
+---
+
 ## Blockquotes(Title and Content)
 
 Blockquotes look like this.
@@ -128,6 +158,17 @@ Speaker notes go here
 
 :::
 
+---
 
+## mathjax
+
+$$
+\begin{bmatrix}
+  a & b \\
+  c & d
+\end{bmatrix}
+$$
+
+---
 
 # Thank you(Section Header)
