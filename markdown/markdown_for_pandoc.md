@@ -1,27 +1,56 @@
 ---
-title: PowerPointのタイトル名
-subtitle: サブタイトル名
-author: Makoto Yaguchi
-date: 2019年1月29日
+title: "Sample Presentation"
+author: "Makoto Yaguchi"
+date: "2024-04-25"
 ---
- 
-# 1枚目のスライド
 
-aaa
+# Title and Content (セクションスライドのように表示される)
 
----
- 
-## 2枚目のスライド
- 
-- １行目
-- ２行目
-- ３行目
+This is the content of the title slide.
 
 ---
- 
-## ３枚目のスライド
- 
-* １行目
-* ２行目
+
+## Title and Content
+
+This is a section title slide.
 
 ---
+
+### Two Content
+
+<div class="columns">
+<div class="column">
+
+- Content 1
+- Bullet 1
+- Bullet 2
+
+</div>
+<div class="column">
+
+- Content 2
+- Bullet 1
+- Bullet 2
+
+</div>
+</div>
+
+---
+
+#### Comparison Slide
+
+- Text
+
+![Image](./img/logo_01.png)
+
+---
+
+### Content with Caption
+
+Some text
+
+![Image Caption](./img/logo_01.png)
+
+---
+
+<!-- Speaker notes only -->
