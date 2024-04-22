@@ -101,6 +101,16 @@ section.slide li {
     line-height: 6mm;
 }
 
+section.slide table {
+    margin: 2.0mm 8.0mm 0mm;
+}
+
+section.slide code {
+    display: inline-block;
+    background-color: #25292f; /* 背景色 */
+    margin: 2.0mm 8.0mm 2.0mm;
+}
+
 
 /* Setting title */
 section.title {
