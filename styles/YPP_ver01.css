@@ -64,8 +64,8 @@ section.chapter p {
 }
 
 
-/* Setting slide */
-section.slide {
+/* Setting slide1 */
+section.slide1 {
     background-image:
         url(../img/Logo_01.png),
         url(../img/Pagenation_01.png),
@@ -76,20 +76,20 @@ section.slide {
     background-repeat: no-repeat;
 }
 
-section.slide h3 {
+section.slide1 h3 {
     /* background-color: whitesmoke; */
     font-size: 16.5px;
     /* margin: 10mm 10mm; */
     padding: 5.5mm 8.0mm 8.9mm;
 }
 
-section.slide p {
+section.slide1 p {
     /* background-color: whitesmoke; */
     margin: 0mm;
     padding: 0mm 8.0mm 0mm;
 }
 
-section.slide ul,
+section.slide1 ul,
 ol {
     /* background-color: whitesmoke; */
     margin: 0mm;
@@ -97,15 +97,15 @@ ol {
     line-height: 6mm;
 }
 
-section.slide li {
+section.slide1 li {
     line-height: 6mm;
 }
 
-section.slide table {
+section.slide1 table {
     margin: 2.0mm 8.0mm 0mm;
 }
 
-section.slide code {
+section.slide1 code {
     display: inline-block;
     background-color: #25292f; /* 背景色 */
     margin: 2.0mm 8.0mm 2.0mm;

@@ -1,22 +1,17 @@
 ---
-title: 流体力学の基礎
-subtitle: Makoto.Yaugchi@motherson.com
+title: 流体力学の基礎 # こちらはPowerPoint用のTitle
 theme: YPP_ver01
 math: mathjax
-marp: true
+marp: false
 ---
 
 <!-- _class: title -->
-<!-- # Main Title -->
+<!-- # こちらはMarp用のTitle -->
+# 流体力学の基礎
 
 ---
 
-<!-- _class: chapter -->
-## 流体力学の基礎
-
----
-
-<!-- _class: slide -->
+<!-- _class: slide1 -->
 ### Table of Contents
 
 1. 流体の諸性質
@@ -37,7 +32,7 @@ marp: true
 
 ---
 
-<!-- _class: slide -->
+<!-- _class: slide1 -->
 ### 流体の諸性質
 1. はじめに
   - 物質の状態 : 固体・液体・気体
@@ -50,7 +45,7 @@ marp: true
 
 ---
 
-<!-- _class: slide -->
+<!-- _class: slide1 -->
 ### 流体の諸性質
 2. 単位系
    1. 国際単位系(SI) 七つの基本単位で構成
@@ -65,7 +60,7 @@ marp: true
 
 ---
 
-<!-- _class: slide -->
+<!-- _class: slide1 -->
 ### 流体の諸性質3
 3. 密度と比体積
    - 密度 $\rho$ : 単位体積当たりの質量
@@ -77,7 +72,7 @@ marp: true
 
 ---
 
-<!-- _class: slide -->
+<!-- _class: slide1 -->
 ### 流体の諸性質4
 4. 圧縮性
 - 実在の流体は作用する圧力の増減に応じて収縮・膨張する
@@ -92,7 +87,7 @@ marp: true
 
 ---
 
-<!-- _class: slide -->
+<!-- _class: slide1 -->
 ### 流体の諸性質5
 1. ニュートンの粘性法則
 - 流体の粘性 : 変形に対して抵抗する性質(水あめは強く、水は弱い)
@@ -113,7 +108,7 @@ marp: true
 
 ---
 
-<!-- _class: slide -->
+<!-- _class: slide1 -->
 ### 流体の諸性質6
 - 標準大気圧における水と空気の粘度 $\mu$ 、動粘度 $\nu$
   - 粘度および動粘度の温度上昇による変化
@@ -131,7 +126,7 @@ marp: true
 
 ---
 
-<!-- _class: slide -->
+<!-- _class: slide1 -->
 ### 流体の諸性質8
 - 粘性による流体の分類
   - ニュートン流体
@@ -150,7 +145,7 @@ marp: true
 
 ---
 
-<!-- _class: slide -->
+<!-- _class: slide1 -->
 ### 流体の諸性質7
 1. 表面張力
 - 液体と気体、互いに溶け合わない液体同士などの液体界面に働く。液体表面に薄い膜が張られているような現象
@@ -167,7 +162,7 @@ $$ 2\sigma ds_2 \sin frac{d\theta_1}{2} + 2\sigma ds_1 \sin frac{d\theta_2}{2} \
 
 ---
 
-<!-- _class: slide -->
+<!-- _class: slide1 -->
 ### 流体の諸性質7
 - 毛管現象
   - 細いガラス管を水中に立てると、管内の水面が上昇する現象
@@ -192,7 +187,7 @@ $$ 2\sigma ds_2 \sin frac{d\theta_1}{2} + 2\sigma ds_1 \sin frac{d\theta_2}{2} \
 
 ---
 
-<!-- _class: slide -->
+<!-- _class: slide1 -->
 ### 静止流体の力学1
 1. 圧力の等方性
 - 静止流体中では任意の1点における圧力はあらゆる方向に等しい
@@ -207,7 +202,7 @@ $$ p \equiv \lim_{\Delta A \rightarrow 0} \frac{\Delta F}{\Delta A} $$
 
 ---
 
-<!-- _class: slide -->
+<!-- _class: slide1 -->
 ### 静止流体の力学2
 - 密度 $\rho$ の流体中に微小四面体 $OABC$ を考える
   - 斜面 $ABC$ の法制が $x, y, z$ 軸となす角度を $\alpha, \beta, \gamma$、$\triangle ABC$ の面積を $dA$ とする
@@ -219,19 +214,56 @@ $$ p \equiv \lim_{\Delta A \rightarrow 0} \frac{\Delta F}{\Delta A} $$
   $$ p_x\frac{1}{2}dxdz - p_ndA\cos\beta = 0 \therefore p_y = p_n $$
   - $z$ 方向は流体の自重を考慮する
   $$ p_x\frac{1}{2}dxdy - p_ndA\cos\gamma -\rho g \frac{1}{6}dxdydz = 0 \therefore p_z = p_n + \rho g \frac{1}{3}dz $$
+  - $dz\rightarrow0$ では $p_z = p_n$ より $p_x = p_y = p_z = p_n$ となる
+
+![w:200](/Basics_of_Fluid_Mechanics/images/2-1.png)
+![2-1](Basics_of_Fluid_Mechanics/images/2-1.png)
 
 ---
-<!-- _class: slide -->
-### 静止流体の力学2
 
-<!-- ![alt text](/Basics_of_Fluid_Mechanics/images/2-1.png) -->
-![alt text](Basics_of_Fluid_Mechanics/images/2-1.png)
+<!-- _class: slide1 -->
+### 静止流体の力学3
 1. 圧力分布
-2. 液中圧力計の原理
-3. 静止流体中の壁面に働く力
+- 有限体積の流体に作用する外力
+  - 表面力 : 流体部分の表面に働く外力
+  - 体積力 : 重力や電磁気力などの流体の実質部分に直接作用する外力
+- 流体中に一辺が $dx, dy, dz$ の微小直六面体の要素を考える
+![w:200](/Basics_of_Fluid_Mechanics/images/2-2.png)
+![2-2](Basics_of_Fluid_Mechanics/images/2-2.png)
+
+---
+
+<!-- _class: slide1 -->
+### 静止流体の力学4
+- これに働く単位質量当たりの体積力 $F=iX+jY+kX$ とする
+  - $x$ 方向の力のつり合いは
+  $$ pdydz - (p+\frac{\partial p}{\partial x}dx)dydz + \rho dxdydz X = 0 $$
+  - これより以下の関係を得る
+  $$ \frac{\partial p}{\partial x} = \rho X, \quad \frac{\partial p}{\partial y} = \rho Y, 
+  \quad \frac{\partial p}{\partial z} = \rho Z $$
+  - 3式の両辺に $i, j, k$ をかけ、それぞれを加える
+  $$ i\frac{\partial p}{\partial x} + j\quad \frac{\partial p}{\partial y} + k\frac{\partial p}{\partial z} = \rho(iX+jY+kZ) $$
+  - ここで $\nabla \equiv i(\partial p / \partial x)+j(\partial p / \partial y)+k(\partial p / \partial z)$、$\nabla p = grad p$ とすると
+  $$ \nabla p = \rho F $$
+  - これより、体積力ベクトル $F$ の方向が圧力勾配の方向であることがわかる
+  - 体積力の方向に垂直な面が圧力一定の等圧面になるということになる
+
+---
+
+<!-- _class: slide1 -->
+### 静止流体の力学5
+- 
+
+---
+
+<!-- _class: slide1 -->
+### 静止流体の力学5
+
+1. 液中圧力計の原理
+2. 静止流体中の壁面に働く力
    1. 平面壁に働く力
    2. 局面壁に働く力
-4. 浮揚体の安定
-5. 相対的静止状態の液面形状
+3. 浮揚体の安定
+4. 相対的静止状態の液面形状
    1. 等加速度直線運動
    2. 回転運動
