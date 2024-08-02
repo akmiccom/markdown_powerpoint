@@ -8,6 +8,7 @@
 - [What? Slides? From Markdown?](https://stymied.medium.com/what-slides-from-markdown-5239ed31e7ac)
 - [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
 - [Markdownから直接PowerPointを作成する](https://yyhhyy.hatenablog.com/entry/2019/10/22/100000)
+- [Marp入門〜応用｜markdownでプレゼン資料を楽に素早く作って発表しよう](https://zenn.dev/cota_hu/books/marp-beginner-advanced/viewer/intro)
 
 ## なぜこんなことを考えたのか？
 

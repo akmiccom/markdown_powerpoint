@@ -1,6 +1,7 @@
 ---
 marp: true
-theme: YPP_ver1.0
+theme: YPP_ver01
+# theme: gaia
 paginate: true
 # header: motherson yachiyo
 # footer: Makoto.Yaguchi@motherson.com_

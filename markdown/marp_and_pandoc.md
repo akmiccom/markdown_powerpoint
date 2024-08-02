@@ -12,7 +12,7 @@ paginate: true
   # - styles/special.css
 
 # For marp
-theme: YPP_ver1.0
+theme: YPP_ver01
 math: mathjax
 marp: true
 ---

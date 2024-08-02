@@ -4,7 +4,7 @@ author: John Doe
 date: March 22, 2005
 output: powerpoint_presentation
 marp: true
-theme: YPP_ver1.0
+style: YPP_ver10
 paginate: ture
 slide-level: 5
 ---
