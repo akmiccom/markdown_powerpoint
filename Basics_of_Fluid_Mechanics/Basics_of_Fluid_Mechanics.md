@@ -3,7 +3,7 @@ title: 流体力学の基礎
 subtitle: Makoto.Yaugchi@motherson.com
 theme: YPP_ver01
 math: mathjax
-marp: false
+marp: true
 ---
 
 <!-- _class: title -->
@@ -108,9 +108,8 @@ marp: false
   - 動粘度 $\nu \ [m^2/s]$ : 流体の運動を調べるのにはこちらが使われる
   $$ \nu = \frac{u}{\rho} $$
 
-![w:100](/Basics_of_Fluid_Mechanics/1-1.png)
-![w:100](Basics_of_Fluid_Mechanics/1-1.png)
-
+<!-- ![w:100](/Basics_of_Fluid_Mechanics/images/1-1.png) -->
+![w:100](Basics_of_Fluid_Mechanics/images/1-1.png)
 
 ---
 
@@ -145,8 +144,8 @@ marp: false
     - 上に凸 濃縮ジュース、マヨネーズなど
   - ビンガム流体
     - ケチャップなど
-![w:100](/Basics_of_Fluid_Mechanics/1-2.png)
-![w:100](Basics_of_Fluid_Mechanics/1-2.png)
+<!-- ![w:100](/Basics_of_Fluid_Mechanics/images/1-2.png) -->
+![w:100](Basics_of_Fluid_Mechanics/images/1-2.png)
 
 
 ---
@@ -163,8 +162,8 @@ marp: false
 
 $$ 2\sigma ds_2 \sin frac{d\theta_1}{2} + 2\sigma ds_1 \sin frac{d\theta_2}{2} \approx \sigma ds_2d\theta_1 + \sigma ds_1d\theta_2 $$
 
-![w:200](/Basics_of_Fluid_Mechanics/1-3.png)
-![w:200](Basics_of_Fluid_Mechanics/1-3.png)
+<!-- ![w:200](/Basics_of_Fluid_Mechanics/images/1-3.png) -->
+![w:200](Basics_of_Fluid_Mechanics/images/1-3.png)
 
 ---
 
@@ -183,8 +182,8 @@ $$ 2\sigma ds_2 \sin frac{d\theta_1}{2} + 2\sigma ds_1 \sin frac{d\theta_2}{2} \
     - 水の場合にはほぼ $0^\circ$ 液面が上昇
     - 水銀の場合には約 $135^\circ$ 液面が下降
 
-![w:100](/Basics_of_Fluid_Mechanics/1-4.png)
-![w:100](Basics_of_Fluid_Mechanics/1-4.png)
+<!-- ![w:100](/Basics_of_Fluid_Mechanics/images/1-4.png) -->
+![w:100](Basics_of_Fluid_Mechanics/images/1-4.png)
 
 ---
 
@@ -205,6 +204,11 @@ $$ p \equiv \lim_{\Delta A \rightarrow 0} \frac{\Delta F}{\Delta A} $$
   - 圧力の表し方
     - 絶対圧 : 絶対真空（完全真空）を基準として表した圧力 
     - ゲージ圧 : 周囲の圧力を基準として表し、通常大気圧が基準で $1.013\times 10^5$
+
+---
+
+<!-- _class: slide -->
+### 静止流体の力学2
 - 密度 $\rho$ の流体中に微小四面体 $OABC$ を考える
   - 斜面 $ABC$ の法制が $x, y, z$ 軸となす角度を $\alpha, \beta, \gamma$、$\triangle ABC$ の面積を $dA$ とする
   $$ \triangle OBC = \frac{1}{2}dydz = dA\cos\alpha $$
@@ -215,13 +219,13 @@ $$ p \equiv \lim_{\Delta A \rightarrow 0} \frac{\Delta F}{\Delta A} $$
   $$ p_x\frac{1}{2}dxdz - p_ndA\cos\beta = 0 \therefore p_y = p_n $$
   - $z$ 方向は流体の自重を考慮する
   $$ p_x\frac{1}{2}dxdy - p_ndA\cos\gamma -\rho g \frac{1}{6}dxdydz = 0 \therefore p_z = p_n + \rho g \frac{1}{3}dz $$
- 
-![alt text](/Basics_of_Fluid_Mechanics/2-1.png)
-![alt text](Basics_of_Fluid_Mechanics/2-1.png)
 
+---
+<!-- _class: slide -->
+### 静止流体の力学2
 
-
-
+<!-- ![alt text](/Basics_of_Fluid_Mechanics/images/2-1.png) -->
+![alt text](Basics_of_Fluid_Mechanics/images/2-1.png)
 1. 圧力分布
 2. 液中圧力計の原理
 3. 静止流体中の壁面に働く力
