@@ -86,3 +86,51 @@ pandoc input.md -t pptx -o output.pptx
 
 - スライドを参照したいときの使い方
 pandoc -s hoge.md -o hoge2.pptx --reference-doc=hogehoge.pptx
+
+## markdown によるレイアウトの変更
+pandoc を使って Markdown から PowerPoint に変換する際に、スライドのレイアウトが "Two Content" になる場合と "Comparison" になる場合の違いを説明します
+
+### Two Content
+```markdown
+# スライドのタイトル
+
+## 左側のコンテンツ
+- ポイント1
+- ポイント2
+
+## 右側のコンテンツ
+- ポイントA
+- ポイントB
+```
+### Comparison
+```markdown
+# スライドのタイトル
+
+::: columns
+:::: column
+### 左側のヘッダ
+- ポイント1
+- ポイント2
+::::
+
+:::: column
+### 右側のヘッダ
+- ポイントA
+- ポイントB
+::::
+:::
+```
+
+### Content with Caption
+```markdown
+# スライドのタイトル
+
+::: {layout="content-with-caption"}
+### キャプション
+- ポイント1
+- ポイント2
+
+![画像のキャプション](path/to/image.png)
+:::
+
+```
