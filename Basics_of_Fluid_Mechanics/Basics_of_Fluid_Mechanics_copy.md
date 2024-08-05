@@ -33,7 +33,7 @@ marp: true
 ---
 
 <!-- _class: slide1 -->
-## 流体の諸性質1
+## 流体の諸性質
 1. はじめに
   - 物質の状態 : 固体・液体・気体
   - 流体 : 液体・気体のように形状に応じて自在に変形
@@ -46,7 +46,7 @@ marp: true
 ---
 
 <!-- _class: slide1 -->
-## 流体の諸性質2
+## 流体の諸性質
 2. 単位系
    1. 国際単位系(SI) 七つの基本単位で構成
     - 長さ 𝑚 (メートル)、質量 𝑘𝑔 (キログラム)、時間 𝑠𝑒𝑐 (秒)
@@ -107,10 +107,9 @@ marp: true
 :::
 
 ::: {.column}
-![1-1](Basics_of_Fluid_Mechanics/images/1-1.png)
+![w:100](Basics_of_Fluid_Mechanics/images/1-1.png)
 :::
 ::::::::::::::::::::::::::
-<!-- ![w:100](/Basics_of_Fluid_Mechanics/images/1-1.png) for Marp -->
 
 ---
 
@@ -134,8 +133,6 @@ marp: true
 
 <!-- _class: slide1 -->
 ## 流体の諸性質7
-::::::::::::::: {.columns}
-::: {.column}
 - 粘性による流体の分類
   - ニュートン流体
   - 非ニュートン流体
@@ -147,42 +144,30 @@ marp: true
     - 上に凸 濃縮ジュース、マヨネーズなど
   - ビンガム流体
     - ケチャップなど
-:::
 
-::: {.column}
-![1-2](Basics_of_Fluid_Mechanics/images/1-2.png)
-:::
-::::::::::::::::::::::::::
 <!-- ![w:100](/Basics_of_Fluid_Mechanics/images/1-2.png) for Marp -->
+<!-- ![w:100](Basics_of_Fluid_Mechanics/images/1-2.png) -->
 
 
 ---
 
 <!-- _class: slide1 -->
 ## 流体の諸性質8
-::::::::::::::: {.columns}
-::: {.column}
 1. 表面張力
 - 液体と気体、互いに溶け合わない液体同士などの液体界面に働く。液体表面に薄い膜が張られているような現象
   - 表面量力による圧力差
     - 辺の長さ $ds_1, \ ds_2$ の液の内部と外部の圧力差 $\Delta p$
     - 液面の主曲率半径 $R_1, \ R_2$ 中心角 $d\theta_1, \ d\theta_2$
     - 液面の周囲の働く表面張力の $z$ 軸に平行な成分
-$$ 2\sigma ds_2 \sin frac{d\theta_1}{2} + 2\sigma ds_1 \sin frac{d\theta_2}{2} \approx \sigma ds_2d\theta_1 + \sigma ds_1d\theta_2 $$
-:::
+    - $$ 2\sigma ds_2 \sin frac{d\theta_1}{2} + 2\sigma ds_1 \sin frac{d\theta_2}{2} \approx \sigma ds_2d\theta_1 + \sigma ds_1d\theta_2 $$
 
-::: {.column}
-![1-3](Basics_of_Fluid_Mechanics/images/1-3.png)
-:::
-::::::::::::::::::::::::::
 <!-- ![w:200](/Basics_of_Fluid_Mechanics/images/1-3.png) for Marp -->
+<!-- ![w:200](Basics_of_Fluid_Mechanics/images/1-3.png)  -->
 
 ---
 
 <!-- _class: slide1 -->
 ## 流体の諸性質9
-::::::::::::::: {.columns}
-::: {.column}
 - 毛管現象
   - 細いガラス管を水中に立てると、管内の水面が上昇する現象
   - 液体の凝集力と壁面への付着力の大小関係により上昇が下降かが決まる
@@ -194,18 +179,14 @@ $$ 2\sigma ds_2 \sin frac{d\theta_1}{2} + 2\sigma ds_1 \sin frac{d\theta_2}{2} \
   - 接触角 $\theta$ の値
     - 水の場合にはほぼ $0^\circ$ 液面が上昇
     - 水銀の場合には約 $135^\circ$ 液面が下降
-:::
 
-::: {.column}
-![1-4](Basics_of_Fluid_Mechanics/images/1-4.png)
-:::
-::::::::::::::::::::::::::
 <!-- ![w:100](/Basics_of_Fluid_Mechanics/images/1-4.png) for Marp -->
+<!-- ![w:100](Basics_of_Fluid_Mechanics/images/1-4.png) -->
 
 ---
 
 <!-- _class: chapter -->
-# 静止流体の力学
+## 静止流体の力学
 
 ---
 
@@ -226,8 +207,6 @@ $$ p \equiv \lim_{\Delta A \rightarrow 0} \frac{\Delta F}{\Delta A} $$
 
 <!-- _class: slide1 -->
 ## 圧力分布 1
-::::::::::::::: {.columns}
-::: {.column}
 - 密度 $\rho$ の流体中に微小四面体 $OABC$ を考える
   - 斜面 $ABC$ の法制が $x, y, z$ 軸となす角度を $\alpha, \beta, \gamma$、$\triangle ABC$ の面積を $dA$ とする
   $$ \triangle OBC = \frac{1}{2}dydz = dA\cos\alpha $$
@@ -239,32 +218,22 @@ $$ p \equiv \lim_{\Delta A \rightarrow 0} \frac{\Delta F}{\Delta A} $$
   - $z$ 方向は流体の自重を考慮する
   $$ p_x\frac{1}{2}dxdy - p_ndA\cos\gamma -\rho g \frac{1}{6}dxdydz = 0 \therefore p_z = p_n + \rho g \frac{1}{3}dz $$
   - $dz\rightarrow0$ では $p_z = p_n$ より $p_x = p_y = p_z = p_n$ となる
-:::
 
-::: {.column}
-![2-1](Basics_of_Fluid_Mechanics/images/2-1.png)
-:::
-::::::::::::::::::::::::::
 <!-- ![w:200](/Basics_of_Fluid_Mechanics/images/2-1.png) for Marp -->
+<!-- ![2-1](Basics_of_Fluid_Mechanics/images/2-1.png) -->
 
 ---
 
 <!-- _class: slide1 -->
 ## 圧力分布 2
-::::::::::::::: {.columns}
-::: {.column}
 1. 圧力分布
 - 有限体積の流体に作用する外力
   - 表面力 : 流体部分の表面に働く外力
   - 体積力 : 重力や電磁気力などの流体の実質部分に直接作用する外力
 - 流体中に一辺が $dx, dy, dz$ の微小直六面体の要素を考える
-:::
-
-::: {.column}
-![2-2](Basics_of_Fluid_Mechanics/images/2-2.png)
-:::
-::::::::::::::::::::::::::
+- 
 <!-- ![w:200](/Basics_of_Fluid_Mechanics/images/2-2.png) for Marp -->
+<!-- ![2-2](Basics_of_Fluid_Mechanics/images/2-2.png) -->
 
 ---
 
@@ -320,8 +289,6 @@ $$ \frac{dp}{dz} = -\rho g $$
 
 <!-- _class: slide1 -->
 ## 液柱圧力計の原理 1
-::::::::::::::: {.columns}
-::: {.column}
 - マノメータ(液柱圧力計)
   - 液柱の高さによって流体の圧力を測定する計器
 - ピエゾメータ
@@ -331,41 +298,28 @@ $$ \frac{dp}{dz} = -\rho g $$
   - 点 $A$ の圧力 $p_A = p_a + \rho_1 g H_1$
   - 点 $A$ と同一高さの点 $B$ の圧力を $P_B$ として $p = p_B + \rho_2 g H_2$
   - $P_A = P_B$ より $p = p_a + g(\rho_1 H_1 - \rho_2 H_2)$
-:::
 
-::: {.column}
-![2-4](Basics_of_Fluid_Mechanics/images/2-4.png)
-:::
-::::::::::::::::::::::::::
+<!-- ![w:300](Basics_of_Fluid_Mechanics/images/2-4.png) -->
 <!-- ![w:300](images/2-4.png) for Marp -->
 ---
 
 <!-- _class: slide1 -->
 ## 液柱圧力計の原理 2
-::::::::::::::: {.columns}
-::: {.column}
 - 示差圧力計
   - 点 $A$ の圧力 $p_A = p' + \rho_1 g H_1$
   - 点 $B$ の圧力 $P_B = p_A + \rho_2 g H_2$
   - 点 $O$ の圧力
   - $p = p_B - \rho_3 g H_3 = p_A + \rho_2 g H_2 - \rho_3 g H_3 = p' + g(\rho_1 H_1+\rho_2 H_2+\rho_3 H_3)$
   - $$ p-p' = g(\rho_1 H_1+\rho_2 H_2+\rho_3 H_3) $$
-:::
 
-::: {.column}
-![2-5](Basics_of_Fluid_Mechanics/images/2-5.png)
-:::
-::::::::::::::::::::::::::
+<!-- ![w:300](Basics_of_Fluid_Mechanics/images/2-5.png) -->
 <!-- ![w:300](images/2-5.png) for Marp -->
 ---
 
 <!-- _class: slide1 -->
 ## 静止流体中の壁面に働く力 1
-::::::::::::::: {.columns}
-::: {.column}
-流体と接する壁面は常に何らかの流体力を受けているが、静止している場合は圧力のみが作用するので
+流体と接する壁面は常に何らかの流体力を受けているが、静止している場合は圧力のみが作用するので  
 液体や気体の貯蔵タンク、ダム、船舶などを設計する場合には、圧力によって壁面が受ける力(全圧力)を知ることが重要
-
 - 平面壁に働く力
   - 任意の形状をした面積 $A$ の平板が、液面と $\theta$ の傾斜平面壁に働く全圧力を考える
   - 平板の微小面積に働く全圧力 $dF = p dA$
@@ -374,12 +328,8 @@ $$ \frac{dp}{dz} = -\rho g $$
   - 平板の形を表す図形の図心 $G$ の $z$ 座標を $\bar{z}$ とすると、図心の定義 $\iint_A z \ dA = \bar{z}A$ より $\bar{p}$ を図心の圧力として
   - $$ F = \rho g \bar{z} \sin\theta A = \bar{p}A $$
   - 平板に働く全圧力は、図心におけるゲージ圧に平板の面積をかけることにより求まる
-:::
 
-::: {.column}
-![2-6](Basics_of_Fluid_Mechanics/images/2-6.png)
-:::
-::::::::::::::::::::::::::
+<!-- ![w:200](Basics_of_Fluid_Mechanics/images/2-6.png) -->
 <!-- ![w:200](images/2-6.png) for Marp -->
 
 ---
@@ -405,27 +355,18 @@ $$ \frac{dp}{dz} = -\rho g $$
 
 <!-- _class: slide1 -->
 ## 静止流体中の壁面に働く力 3
-::::::::::::::: {.columns}
-::: {.column}
 - 曲面壁に働く力
   - 任意の曲面壁に作用する全圧力は各軸方向成分で考えられる
   - 微小部分に働く全圧力成分 $dF_y$
   - $dF_y = p dA \cos\theta = pdA_y = \rho g z dA_y$
   - 全圧力の成分 $F_y$
   - $$ F_y = \rho g \iint_{A_y}z \ dA_y = \rho g \bar{z}A_y = \bar{\rho} $$
-  - $\bar{z}$ は投影面積 $a'b'c'd'$ の図心 $G$ の $z$ 座標、$\bar{p}$ は深さ $\bar{z}$ における圧力を表す
-:::
 
-::: {.column}
-![2-7](Basics_of_Fluid_Mechanics/images/2-7.png)
-:::
-::::::::::::::::::::::::::
+<!-- ![w:200](Basics_of_Fluid_Mechanics/images/2-7.png) -->
 <!-- ![w:200](images/2-7.png) for Marp -->
 
----
-
-<!-- _class: slide1 -->
-## 静止流体中の壁面に働く力 4
-- あああ
-
-
+<!-- 1. 浮揚体の安定
+1. 相対的静止状態の液面形状
+   1. 等加速度直線運動
+   2. 回転運動
+   3.  -->
