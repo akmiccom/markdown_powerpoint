@@ -1,9 +1,10 @@
 ---
 marp: true
-theme: YPP_ver01
 ---
 
-# Marpで作成したプレゼンテーション
+# Your slide deck
+
+Start writing!
 
 これはMarpで作成したプレゼンテーションのサンプルです。
 
